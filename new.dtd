@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE naughtyxml [
+    <!ENTITY Agrave  "&#192;" ><!-- capital A, grave accent -->
+    <!ENTITY Aacute  "&#193;" ><!-- capital A, acute accent -->
+    <!ENTITY Acirc   "&#194;" ><!-- capital A, circumflex accent -->
+    <!ENTITY Atilde  "&#195;" ><!-- capital A, tilde -->
+    <!ENTITY Auml    "&#196;" ><!-- capital A, dieresis or umlaut mark -->
+    <!ENTITY Aring   "&#197;" ><!-- capital A, ring -->
+    <!ENTITY AElig   "&#198;" ><!-- capital AE diphthong (ligature) -->
+    <!ENTITY Ccedil  "&#199;" ><!-- capital C, cedilla -->
+    <!ENTITY Egrave  "&#200;" ><!-- capital E, grave accent -->
+    <!ENTITY Eacute  "&#201;" ><!-- capital E, acute accent -->
+    <!ENTITY Ecirc   "&#202;" ><!-- capital E, circumflex accent -->
+    <!ENTITY Euml    "&#203;" ><!-- capital E, dieresis or umlaut mark -->
+    <!ENTITY Igrave  "&#204;" ><!-- capital I, grave accent -->
+    <!ENTITY Iacute  "&#205;" ><!-- capital I, acute accent -->
+    <!ENTITY Icirc   "&#206;" ><!-- capital I, circumflex accent -->
+    <!ENTITY Iuml    "&#207;" ><!-- capital I, dieresis or umlaut mark -->
+    <!ENTITY ETH     "&#208;" ><!-- capital Eth, Icelandic -->
+    <!ENTITY Ntilde  "&#209;" ><!-- capital N, tilde -->
+    <!ENTITY Ograve  "&#210;" ><!-- capital O, grave accent -->
+    <!ENTITY Oacute  "&#211;" ><!-- capital O, acute accent -->
+    <!ENTITY Ocirc   "&#212;" ><!-- capital O, circumflex accent -->
+    <!ENTITY Otilde  "&#213;" ><!-- capital O, tilde -->
+    <!ENTITY Ouml    "&#214;" ><!-- capital O, dieresis or umlaut mark -->
+    <!ENTITY Oslash  "&#216;" ><!-- capital O, slash -->
+    <!ENTITY Ugrave  "&#217;" ><!-- capital U, grave accent -->
+    <!ENTITY Uacute  "&#218;" ><!-- capital U, acute accent -->
+    <!ENTITY Ucirc   "&#219;" ><!-- capital U, circumflex accent -->
+    <!ENTITY Uuml    "&#220;" ><!-- capital U, dieresis or umlaut mark -->
+    <!ENTITY Yacute  "&#221;" ><!-- capital Y, acute accent -->
+    <!ENTITY THORN   "&#222;" ><!-- capital THORN, Icelandic -->
+    <!ENTITY szlig   "&#223;" ><!-- small sharp s, German (sz ligature) -->
+    <!ENTITY agrave  "&#224;" ><!-- small a, grave accent -->   
+    <!ENTITY aacute  "&#225;" ><!-- small a, acute accent -->
+    <!ENTITY acirc   "&#226;" ><!-- small a, circumflex accent -->
+    <!ENTITY atilde  "&#227;" ><!-- small a, tilde -->
+    <!ENTITY auml    "&#228;" ><!-- small a, dieresis or umlaut mark -->
+    <!ENTITY aring   "&#229;" ><!-- small a, ring -->
+    <!ENTITY aelig   "&#230;" ><!-- small ae diphthong (ligature) -->
+    <!ENTITY ccedil  "&#231;" ><!-- small c, cedilla -->
+    <!ENTITY egrave  "&#232;" ><!-- small e, grave accent -->
+    <!ENTITY eacute  "&#233;" ><!-- small e, acute accent -->
+    <!ENTITY ecirc   "&#234;" ><!-- small e, circumflex accent -->
+    <!ENTITY euml    "&#235;" ><!-- small e, dieresis or umlaut mark -->
+    <!ENTITY igrave  "&#236;" ><!-- small i, grave accent -->
+    <!ENTITY iacute  "&#237;" ><!-- small i, acute accent -->
+    <!ENTITY icirc   "&#238;" ><!-- small i, circumflex accent -->
+    <!ENTITY iuml    "&#239;" ><!-- small i, dieresis or umlaut mark -->
+    <!ENTITY eth     "&#240;" ><!-- small eth, Icelandic -->
+    <!ENTITY ntilde  "&#241;" ><!-- small n, tilde -->
+    <!ENTITY ograve  "&#242;" ><!-- small o, grave accent -->
+    <!ENTITY oacute  "&#243;" ><!-- small o, acute accent -->
+    <!ENTITY ocirc   "&#244;" ><!-- small o, circumflex accent -->
+    <!ENTITY otilde  "&#245;" ><!-- small o, tilde -->
+    <!ENTITY ouml    "&#246;" ><!-- small o, dieresis or umlaut mark -->
+
+    <!ENTITY oslash  "&#248;" ><!-- small o, slash -->
+    <!ENTITY reg     "&#174;">
+    <!ENTITY times   "&#215;">
+    <!ENTITY micro   "&#181;">
+    <!ENTITY nbsp    "&#160;">
+    <!ENTITY iexcl   "&#161;">
+    <!ENTITY cent    "&#162;">
+    <!ENTITY pound   "&#163;">
+    <!ENTITY curren  "&#164;">
+    <!ENTITY yen     "&#165;">
+    <!ENTITY brvbar  "&#166;">
+    <!ENTITY sect    "&#167;">
+    <!ENTITY uml     "&#168;">
+    <!ENTITY copy    "&#169;">
+    <!ENTITY ordf    "&#170;">
+    <!ENTITY laquo   "&#171;">
+    <!ENTITY not     "&#172;">
+    <!ENTITY shy     "&#173;">
+    <!ENTITY reg     "&#174;">
+    <!ENTITY macr    "&#175;">
+    <!ENTITY deg     "&#176;">
+    <!ENTITY plusmn  "&#177;">
+    <!ENTITY sup2    "&#178;">
+    <!ENTITY sup3    "&#179;">
+    <!ENTITY acute   "&#180;">
+    <!ENTITY micro   "&#181;">
+    <!ENTITY para    "&#182;">
+    <!ENTITY middot  "&#183;">
+    <!ENTITY cedil   "&#184;">
+    <!ENTITY sup1    "&#185;">
+    <!ENTITY ordm    "&#186;">
+    <!ENTITY raquo   "&#187;">
+    <!ENTITY frac14  "&#188;">
+    <!ENTITY frac12  "&#189;">
+    <!ENTITY frac34  "&#190;">
+    <!ENTITY iquest  "&#191;">
+    <!ENTITY Agrave  "&#192;">
+    <!ENTITY Aacute  "&#193;">
+    <!ENTITY Acirc   "&#194;">
+    <!ENTITY Atilde  "&#195;">
+    <!ENTITY Auml    "&#196;">
+    <!ENTITY Aring   "&#197;">
+    <!ENTITY AElig   "&#198;">
+    <!ENTITY Ccedil  "&#199;">
+    <!ENTITY Egrave  "&#200;">
+    <!ENTITY Eacute  "&#201;">
+    <!ENTITY Ecirc   "&#202;">
+    <!ENTITY Euml    "&#203;">
+    <!ENTITY Igrave  "&#204;">
+    <!ENTITY Iacute  "&#205;">
+    <!ENTITY Icirc   "&#206;">
+    <!ENTITY Iuml    "&#207;">
+    <!ENTITY ETH     "&#208;">
+    <!ENTITY Ntilde  "&#209;">
+    <!ENTITY Ograve  "&#210;">
+    <!ENTITY Oacute  "&#211;">
+    <!ENTITY Ocirc   "&#212;">
+    <!ENTITY Otilde  "&#213;">
+    <!ENTITY Ouml    "&#214;">
+    <!ENTITY times   "&#215;">
+    <!ENTITY Oslash  "&#216;">
+    <!ENTITY Ugrave  "&#217;">
+    <!ENTITY Uacute  "&#218;">
+    <!ENTITY Ucirc   "&#219;">
+    <!ENTITY Uml     "&#220;">
+    <!ENTITY Yacute  "&#221;">
+    <!ENTITY THORN   "&#222;">
+    <!ENTITY szlig   "&#223;">
+    <!ENTITY agrave  "&#224;">
+    <!ENTITY aacute  "&#225;">
+    <!ENTITY acirc   "&#226;">
+    <!ENTITY atilde  "&#227;">
+    <!ENTITY auml    "&#228;">
+    <!ENTITY aring   "&#229;">
+    <!ENTITY aelig   "&#230;">
+    <!ENTITY ccedil  "&#231;">
+    <!ENTITY egrave  "&#232;">
+    <!ENTITY eacute  "&#233;">
+    <!ENTITY ecirc   "&#234;">
+    <!ENTITY euml    "&#235;">
+    <!ENTITY igrave  "&#236;">
+    <!ENTITY iacute  "&#237;">
+    <!ENTITY icirc   "&#238;">
+    <!ENTITY iuml    "&#239;">
+    <!ENTITY eth     "&#240;">
+    <!ENTITY ntilde  "&#241;">
+    <!ENTITY ograve  "&#242;">
+    <!ENTITY oacute  "&#243;">
+    <!ENTITY ocirc   "&#244;">
+    <!ENTITY otilde  "&#245;">
+    <!ENTITY ouml    "&#246;">
+    <!ENTITY divide  "&#247;">
+    <!ENTITY oslash  "&#248;">
+    <!ENTITY ugrave  "&#249;">
+    <!ENTITY uacute  "&#250;">
+    <!ENTITY ucirc   "&#251;">
+    <!ENTITY uuml    "&#252;">
+    <!ENTITY yacute  "&#253;">
+    <!ENTITY thorn   "&#254;">
+    <!ENTITY yuml    "&#255;">
+    
+    <!ENTITY ugrave  "&#249;" ><!-- small u, grave accent -->
+    <!ENTITY uacute  "&#250;" ><!-- small u, acute accent -->
+    <!ENTITY ucirc   "&#251;" ><!-- small u, circumflex accent -->
+    <!ENTITY uuml    "&#252;" ><!-- small u, dieresis or umlaut mark -->
+    <!ENTITY yacute  "&#253;" ><!-- small y, acute accent -->
+    <!ENTITY thorn   "&#254;" ><!-- small thorn, Icelandic -->
+    <!ENTITY yuml    "&#255;" ><!-- small y, dieresis or umlaut mark -->
+]>
